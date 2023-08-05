@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "URL Verifier",
+    "version": "1.0",
+    "description": "A Chrome extension to verify URLs for phishing links",
+    "permissions": [
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "https://*/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.linkedin.com/*", "*://*.twitter.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  

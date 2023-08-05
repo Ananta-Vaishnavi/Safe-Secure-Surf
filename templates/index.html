@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phishing Detector</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Phishing Detector</h1>
+    <form action="{{ url_for('handle_input') }}" method="post">
+      <label for="url">Enter the URL:</label>
+      <input type="text" id="url" name="url" required />
+      <input type="submit" value="Check" />
+    </form>
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
