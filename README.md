@@ -1,7 +1,7 @@
 # Introduction
 In today's digital age, the internet is an essential tool for communication and information sharing. However, it also poses various security risks, with malicious actors often concealing harmful content behind shortened URLs. To address this challenge, we propose a project that combines web scraping, URL lengthening, and malicious URL detection using the power of Gradient Boosting.
 
-![Project Image](https://github.com/Ananta-Vaishnavi/Safe-Secure-Surf/assets/94735204/0d757c22-24a7-436d-b366-31f3ff69e70e)
+![image](https://github.com/Ananta-Vaishnavi/Safe-Secure-Surf/assets/94735204/6a5851ce-795d-4f6e-aafa-91894444c51c)
 
 # Project Goals
 The primary goal of this project is to create a robust system capable of performing the following tasks:
