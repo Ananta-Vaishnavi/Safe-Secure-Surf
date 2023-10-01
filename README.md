@@ -1,9 +1,9 @@
-Introduction:
+# Introduction:
 In today's digital age, the internet is an essential tool for communication and information sharing. However, it also poses various security risks, with malicious actors often concealing harmful content behind shortened URLs. To address this challenge, we propose a project that combines web scraping, URL lengthening, and malicious URL detection using the power of Gradient Boosting.
 
 ![image](https://github.com/Ananta-Vaishnavi/Safe-Secure-Surf/assets/94735204/0d757c22-24a7-436d-b366-31f3ff69e70e)
 
-Project Goals:
+# Project Goals:
 The primary goal of this project is to create a robust system capable of performing the following tasks:
 
 Web Page Scraping: Develop a web scraping module capable of retrieving web pages, with a focus on platforms like LinkedIn, which often contain shortened URLs in user profiles, posts, or comments.
@@ -15,12 +15,12 @@ Malicious URL Detection: Utilize Gradient Boosting, a powerful machine learning 
 User Interface: Develop a user-friendly interface that allows users to input web page URLs or text containing URLs. The interface should display the results of URL expansion and the classification of each URL as either safe or malicious.
 
 Reporting and Alerting: Implement a reporting and alerting system to notify users of potentially malicious URLs, ensuring quick response and mitigation of security threats.
-
+# 
 Technologies and Tools:
 
-Web scraping libraries (e.g., BeautifulSoup, Scrapy)
+Web scraping libraries (e.g., BeautifulSoup)
 URL lengthening services or custom algorithms
-Gradient Boosting machine learning framework (e.g., XGBoost, LightGBM)
+Gradient Boosting machine learning framework (e.g., XGBoost)
 Python for programming and model development
 User interface development tools (e.g., HTML, CSS, Flask)
 Database for storing URL and classification data
