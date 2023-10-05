@@ -24,6 +24,8 @@ The primary goal of this project is to create a robust system capable of perform
 - User interface development tools (e.g., HTML, CSS, Flask)
 - Database for storing URL and classification data
 - Security measures for handling potentially malicious URLs
+![image](https://github.com/Ananta-Vaishnavi/Safe-Secure-Surf/assets/94735204/b3c08df7-03a2-4dd7-866a-3323b838ed3f)
+
 
 # Benefits
 - **Enhanced Security:** The system will help users identify potentially harmful URLs, protecting them from phishing attacks, malware, and other online threats.
