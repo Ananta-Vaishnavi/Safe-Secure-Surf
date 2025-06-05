@@ -31,7 +31,6 @@ The primary goal of this project is to create a robust system capable of perform
 - **Enhanced Security:** The system will help users identify potentially harmful URLs, protecting them from phishing attacks, malware, and other online threats.
 - **Efficiency:** Automating the URL expansion and classification process will save users time and effort.
 - **Scalability:** The system can be expanded to include more advanced features and additional URL lengthening and classification algorithms.
-- **Learning Opportunity:** This project provides an excellent opportunity to gain experience in web scraping, machine learning, and web application development.
 
 # Conclusion
 The "Web URL Detection and Malicious URL Detection using Gradient Boosting" project aims to make the internet a safer place by automating the process of identifying and classifying potentially malicious URLs hidden behind shortened links. By combining web scraping, URL lengthening, and machine learning techniques, this project will empower users to navigate the web with greater confidence and security.
